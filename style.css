@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #111;
+  padding: 10px 20px;
+}
+
+.logo {
+  width: 40px;
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.position-section h1,
+.info-section h1 {
+  text-align: center;
+  background: white;
+  color: black;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+  margin: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 40px 0;
+}
+
+.relative-box {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  background: lime;
+  text-align: center;
+  line-height: 120px;
+  color: red;
+  font-weight: bold;
+  box-shadow: 0 0 20px blue;
+}
+
+.absolute-box {
+  position: absolute;
+  top: -40px;
+  left: 10px;
+  background: red;
+  color: white;
+  padding: 20px;
+  font-size: 14px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.info-section {
+  background-color: black;
+  padding: 20px;
+}
+
+.info-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #7d2c2c;
+  width: 250px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.relative-demo, .absolute-demo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.green-box {
+  background: green;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+.red-box {
+  background: red;
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+}
